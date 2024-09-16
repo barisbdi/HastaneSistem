@@ -52,6 +52,12 @@
     <Compile Include="Frm_bilgi_duzenle.Designer.cs">
       <DependentUpon>Frm_bilgi_duzenle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_brans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_brans.Designer.cs">
+      <DependentUpon>Frm_brans.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_doktor_bilgi_duzenle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,12 @@
     </Compile>
     <Compile Include="Frm_doktor_giris.Designer.cs">
       <DependentUpon>Frm_doktor_giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_doktor_paneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_doktor_paneli.Designer.cs">
+      <DependentUpon>Frm_doktor_paneli.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_duyurular.cs">
       <SubType>Form</SubType>
@@ -100,6 +112,12 @@
     <Compile Include="Frm_hasta_kayit.Designer.cs">
       <DependentUpon>Frm_hasta_kayit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_randevu_listesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_randevu_listesi.Designer.cs">
+      <DependentUpon>Frm_randevu_listesi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_sekreter_detay.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +135,9 @@
     <EmbeddedResource Include="Frm_bilgi_duzenle.resx">
       <DependentUpon>Frm_bilgi_duzenle.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_brans.resx">
+      <DependentUpon>Frm_brans.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_doktor_bilgi_duzenle.resx">
       <DependentUpon>Frm_doktor_bilgi_duzenle.cs</DependentUpon>
     </EmbeddedResource>
@@ -125,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_doktor_giris.resx">
       <DependentUpon>Frm_doktor_giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_doktor_paneli.resx">
+      <DependentUpon>Frm_doktor_paneli.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_duyurular.resx">
       <DependentUpon>Frm_duyurular.cs</DependentUpon>
@@ -140,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_hasta_kayit.resx">
       <DependentUpon>Frm_hasta_kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_randevu_listesi.resx">
+      <DependentUpon>Frm_randevu_listesi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_sekreter_detay.resx">
       <DependentUpon>Frm_sekreter_detay.cs</DependentUpon>
