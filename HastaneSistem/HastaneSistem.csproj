@@ -52,6 +52,12 @@
     <Compile Include="Frm_bilgi_duzenle.Designer.cs">
       <DependentUpon>Frm_bilgi_duzenle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_doktor_bilgi_duzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_doktor_bilgi_duzenle.Designer.cs">
+      <DependentUpon>Frm_doktor_bilgi_duzenle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_doktor_detay.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,12 @@
     </Compile>
     <Compile Include="Frm_doktor_giris.Designer.cs">
       <DependentUpon>Frm_doktor_giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_duyurular.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_duyurular.Designer.cs">
+      <DependentUpon>Frm_duyurular.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Girisler.cs">
       <SubType>Form</SubType>
@@ -88,16 +100,34 @@
     <Compile Include="Frm_hasta_kayit.Designer.cs">
       <DependentUpon>Frm_hasta_kayit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_sekreter_detay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_sekreter_detay.Designer.cs">
+      <DependentUpon>Frm_sekreter_detay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_sekreter_giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_sekreter_giris.Designer.cs">
+      <DependentUpon>Frm_sekreter_giris.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Frm_bilgi_duzenle.resx">
       <DependentUpon>Frm_bilgi_duzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_doktor_bilgi_duzenle.resx">
+      <DependentUpon>Frm_doktor_bilgi_duzenle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_doktor_detay.resx">
       <DependentUpon>Frm_doktor_detay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_doktor_giris.resx">
       <DependentUpon>Frm_doktor_giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_duyurular.resx">
+      <DependentUpon>Frm_duyurular.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Girisler.resx">
       <DependentUpon>Frm_Girisler.cs</DependentUpon>
@@ -110,6 +140,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_hasta_kayit.resx">
       <DependentUpon>Frm_hasta_kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_sekreter_detay.resx">
+      <DependentUpon>Frm_sekreter_detay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_sekreter_giris.resx">
+      <DependentUpon>Frm_sekreter_giris.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
